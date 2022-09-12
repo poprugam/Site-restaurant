@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+}
+.header {
+    background-image: url(/images/Bg.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    margin: 0 166px;
+}
+.header-line {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.header-logo {
+}
+.nav-item{
+    color: #fff;
+    text-decoration: none;
+}
