@@ -123,3 +123,41 @@ body{
 .header-buttom:hover{
     background-color: #843e05;
 }
+
+
+.card{
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    width: 349px;
+    margin-right: 31px;
+    background-color: #fff;
+    margin-top: -80px;
+    padding: 0px 10px;
+}
+.cards-holders{
+    display: flex;
+    justify-content: center;
+}
+.card-image{
+    display: flex;
+    justify-content: center;
+    padding-top: 31px;
+}
+.card-title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family: 'Tinos', serif;
+    font-size: 26px;
+    font-weight: 400;
+}
+.card-desc{
+    text-align: center;
+    justify-content: center;
+    font-family: 'Tinos', serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #656363;
+}
+.card-title span{
+    color: #BC9060;
+}
