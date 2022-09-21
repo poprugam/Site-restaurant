@@ -353,4 +353,31 @@ body{
     background-color: #843e05;
 }
 
-
+.coment{
+    background-color: #E5E5E5;
+    padding-top: 104px;
+    padding-bottom: 139px;
+}
+.coment-text{
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.coment-img{
+    border-radius: 50px;
+}
+.coment-image{
+    text-align: center;
+}
+.coment-type{
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+.coment-name{
+    padding-top: 9px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
