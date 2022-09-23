@@ -154,8 +154,7 @@ body{
     text-align: center;
     justify-content: center;
     font-family: 'Tinos', serif;
-    font-size: 26px;
-    font-weight: 400;
+    font-size: 21px;
     color: #656363;
 }
 .card-title span{
@@ -403,4 +402,29 @@ body{
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+}
+
+.cook{
+    padding-bottom: 100px;
+}
+.cook-title{
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.cook-title span{
+    color: #D67E34;
+    padding-left: 10px;
+}
+.cook-content{
+    display: flex;
+    justify-content: space-around;
+}
+.footer{
+    background-color: #000;
+    padding: 50px 0;
+    color: #fff;
+    text-align: center;
 }
