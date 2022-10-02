@@ -9,6 +9,9 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.burger-menu{
+    display: none;
+}
 .container {
     margin: 0 166px;
 }
@@ -427,4 +430,110 @@ body{
     padding: 50px 0;
     color: #fff;
     text-align: center;
+}
+@media (max-width:1500px) {
+    .galery-content{
+        display: block;
+    }
+    .img-gal,
+    .galery-up,
+    .galery-down{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .img-gal{
+        margin-bottom: 20px;
+    }
+    .galery-left{
+        margin-right: 0;
+    }
+}
+@media (max-width:1300px) {
+    .menu-items{
+        display: block;
+    }
+    .menu-item{
+        margin: 20px auto;
+        width: 600px;
+    }
+    .header-title{
+        position: static;
+    }
+    .header-suptitle::after,
+    .header-suptitle:before {
+        content: none;
+    }
+    .cook-content{
+        display: block;
+    }
+    .cook-content img{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 30px;
+    }
+    .block-holder{
+        display: block;
+    }
+    .left-title, 
+    .left-text, 
+    .right-button {
+        text-align: center;
+    }
+    .right-button {
+        margin-top: 30px;
+    }
+    .history-images{
+        display: none;
+    }
+    .history-title,
+    .history-desk,
+    .history-number{
+        width: auto;
+    } 
+}
+@media (max-width:1185px) {
+    .burger-menu{
+        display: block;
+    }
+    .nav,
+    .cart,
+    .phone, 
+    .btn {
+        display: none;
+    }
+    .header-line{
+        justify-content: space-between;
+    }
+    .burgers-img{
+        display: none;
+    }
+}
+@media (max-width:1000px){
+    .cards-holders{
+        display: block;
+    }
+    .card{
+        width: 100%;
+        margin-top: 30px;
+        padding-bottom: 20px;
+    }
+}
+@media (max-width:780px){
+    .history-holder{
+        display: block;
+    }
+    .menu-item{
+        width: auto;
+    }
+    .high{
+        display: none;
+    }
+    .container{
+        margin: auto 40px;
+    }
+    .number-item{
+        font-size: 23px;
+    }
 }
