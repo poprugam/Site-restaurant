@@ -1,6 +1,6 @@
 # Проект №3, Сайт: Site-restaurant
 ## LP (html+css+images+мобільна версія+js)
-### [Посилання на сайт](poprugam.github.io/Site-restaurant/)
+### [Посилання на сайт](https://poprugam.github.io/Site-restaurant/)
 
 ___
 **Детальна інформація**
