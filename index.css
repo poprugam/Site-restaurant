@@ -229,7 +229,7 @@ body{
 }
 
 .black-block{
-    background-image: url(/images/bg.jpg);
+    background-image: url(images/bg.jpg);
     padding: 80px 0;
 }
 .left-title{
