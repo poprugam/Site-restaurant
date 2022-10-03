@@ -537,3 +537,17 @@ body{
         font-size: 23px;
     }
 }
+.block{
+    display: block;
+}
+.burger-slide{
+    position: absolute;
+}
+button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.disp {
+    display: none;
+}
